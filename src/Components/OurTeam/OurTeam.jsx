@@ -14,7 +14,12 @@ const OurTeam = () => {
   return (
     <div className="bg-blue-300 my-24 py-16">
       <div className="max-w-screen-xl mx-auto px-4 xl:px-0">
-        <h2 className="text-center text-4xl font-robotoslab font-semibold">
+        <h2
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="text-center text-4xl font-robotoslab font-semibold"
+        >
           Our team <span className="text-blue-500">members</span>
         </h2>
         <div className="mt-16 grid grid-cols-1 gap-14 md:grid-cols-2 md:gap-5 lg:grid-cols-3 xl:grid-cols-4">
@@ -22,6 +27,8 @@ const OurTeam = () => {
             const { id, name, social_media, image } = member;
             return (
               <div
+                data-aos="fade-up"
+                data-aos-duration="1000"
                 className="rounded-md teammember relative overflow-hidden bg-base-100 py-10 hover:bg-base-300 hover:cursor-pointer transition-all"
                 key={id}
               >

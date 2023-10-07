@@ -5,11 +5,12 @@ const Welcome = () => {
     <div className="max-w-screen-xl mx-auto px-4 xl:px-0">
       <div className="flex flex-col-reverse md:flex-row justify-between md:items-start lg:items-center gap-5">
         <img
+          data-aos="fade-down"
           src={WelcomePic}
           alt=""
           className="md:w-2/5 md:h-[300px] lg:h-auto"
         />
-        <div className="md:w-3/5">
+        <div data-aos="fade-up" className="md:w-3/5">
           <h2 className="text-center md:text-left text-3xl md:text-4xl font-robotoslab font-semibold">
             Welcome to <span className="text-blue-500">Event Aura</span>
           </h2>

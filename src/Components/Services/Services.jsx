@@ -13,18 +13,24 @@ const Services = () => {
 
   return (
     <div className="max-w-screen-xl mx-auto px-4 xl:px-0 my-12">
-      <h2 className="text-4xl text-center font-robotoslab font-semibold">
+      <h2
+        data-aos="fade-up"
+        className="text-4xl text-center font-robotoslab font-semibold"
+      >
         Our Wedding Event <span className="text-blue-500">Services</span>
       </h2>
-      <p className="text-xl text-center font-poppins mt-4">
+      <p data-aos="fade-down" className="text-xl text-center font-poppins mt-4">
         Seamlessly orchestrate your dream day with our expert planners, <br />{" "}
         turning visions into reality, stress-free
       </p>
       <div className="mt-4 grid gap-10 md:gap-8 md:grid-cols-2 lg:grid-cols-3">
         {services.map((service) => {
           const { id, image, title, description, cast } = service;
+
           return (
             <div
+              data-aos="fade-down"
+              data-aos-duration="1000"
               key={id}
               className="card card-compact bg-base-100 shadow-xl rounded-md hover:bg-gray-200"
             >
