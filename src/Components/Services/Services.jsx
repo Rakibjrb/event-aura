@@ -22,7 +22,7 @@ const Services = () => {
       </p>
       <div className="mt-4 grid gap-10 md:gap-8 md:grid-cols-2 lg:grid-cols-3">
         {services.map((service) => {
-          const { id, image, title, description } = service;
+          const { id, image, title, description, cast } = service;
           return (
             <div
               key={id}
@@ -34,6 +34,7 @@ const Services = () => {
               <div className="card-body">
                 <h2 className="card-title font-poppins font-bold">{title}</h2>
                 <p>{description.slice(0, 110)}...</p>
+                <h3 className="text-xl">Coast : {cast}$</h3>
                 <div className="card-actions mt-4 flex justify-between items-center">
                   <div className="rating gap-1">
                     <input

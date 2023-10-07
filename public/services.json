@@ -4,41 +4,47 @@
     "image": "https://i.ibb.co/DVT60W4/decorations.jpg",
     "title": "Enchanted Events & Decor",
     "description": "Enchanted Events & Decor is your key to a fairytale wedding. We create magical settings that reflect your love story. Our innovative decor and floral arrangements transform venues into dreamscapes. With a reputation for excellence, we're committed to making your wedding day a captivating experience.",
-    "ratings": 4.9
+    "ratings": 4.9,
+    "cast": "300"
   },
   {
     "id": "03",
     "image": "https://i.ibb.co/Qcrtbwh/photography.jpg",
     "title": "Cherished Moments Photography",
     "description": "Capture the essence of your wedding day with Cherished Moments Photography. Our skilled photographers document every smile, tear, and laugh, preserving the beauty of your love story. We pride ourselves on delivering stunning, timeless images that you'll treasure forever.",
-    "ratings": 4.9
+    "ratings": 4.9,
+    "cast": "70"
   },
   {
     "id": "05",
     "image": "https://i.ibb.co/k53cj8t/haromony.jpg",
     "title": "Harmony Entertainment Group",
     "description": "Harmony Entertainment Group adds the perfect soundtrack to your celebration. From elegant string quartets to high-energy DJs, we provide exceptional musical experiences. Our passion for music and entertainment ensures your wedding is a harmonious and unforgettable event.",
-    "ratings": 4.8
+    "ratings": 4.8,
+    "cast": "150"
   },
   {
     "id": "04",
     "image": "https://i.ibb.co/XZ27TVF/harborlight.jpg",
     "title": "Harbor Lights Cruises",
     "description": "Harbor Lights Cruises offers a unique wedding experience aboard luxurious cruise ships. Sail into wedded bliss with stunning waterfront views, gourmet dining, and impeccable service. We ensure your wedding day is smooth sailing from start to finish.",
-    "ratings": 4.7
+    "ratings": 4.7,
+    "cast": "140"
   },
   {
     "id": "02",
     "image": "https://i.ibb.co/Jd4jmp1/loveaffairs.jpg",
     "title": "Romantic Affairs Planning",
     "description": "At Romantic Affairs Planning, we specialize in curating romantic weddings that speak to your heart. Our dedicated team ensures your special day is infused with love and style. With meticulous planning and personalized touches, we create memories that last a lifetime.",
-    "ratings": 4.7
+    "ratings": 4.7,
+    "cast": "130"
   },
   {
     "id": "00",
     "image": "https://i.ibb.co/1vxgPQ9/classic.jpg",
     "title": "Classic Elegance Weddings",
     "description": "Experience timeless beauty with Classic Elegance Weddings. Our seasoned team orchestrates stunning weddings, from intimate ceremonies to grand celebrations. We specialize in crafting unforgettable moments with attention to every detail. With a track record of excellence, our clients trust us to make their dream day a reality.",
-    "ratings": 4.8
+    "ratings": 4.8,
+    "cast": "120"
   }
 ]
