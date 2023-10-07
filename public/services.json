@@ -5,7 +5,8 @@
     "title": "Enchanted Events & Decor",
     "description": "Enchanted Events & Decor is your key to a fairytale wedding. We create magical settings that reflect your love story. Our innovative decor and floral arrangements transform venues into dreamscapes. With a reputation for excellence, we're committed to making your wedding day a captivating experience.",
     "ratings": 4.9,
-    "cast": "300"
+    "cast": "300",
+    "full_description": "Enchanted Events & Decor is your key to a fairytale wedding. We create magical settings that reflect your love story. Our innovative decor and floral arrangements transform venues into dreamscapes. With a reputation for excellence, we're committed to making your wedding day a captivating experience. Classic Elegance Weddings invites you to embark on a journey where timeless beauty meets meticulous craftsmanship. Our seasoned team of wedding experts is dedicated to orchestrating stunning weddings that transcend ordinary celebrations. Whether you envision an intimate ceremony or a grand, extravagant affair, we specialize in crafting unforgettable moments, where love, elegance, and attention to detail take center stage. At the heart of our approach is a commitment to making your dream day a reality. We understand that your wedding day is a reflection of your unique love story, and it should be nothing short of perfection. Our team's vast experience in the wedding industry allows us to transform your ideas and inspirations into a breathtaking reality. "
   },
   {
     "id": "03",
@@ -13,7 +14,8 @@
     "title": "Cherished Moments Photography",
     "description": "Capture the essence of your wedding day with Cherished Moments Photography. Our skilled photographers document every smile, tear, and laugh, preserving the beauty of your love story. We pride ourselves on delivering stunning, timeless images that you'll treasure forever.",
     "ratings": 4.9,
-    "cast": "70"
+    "cast": "70",
+    "full_description": "Capture the essence of your wedding day with Cherished Moments Photography. Our skilled photographers document every smile, tear, and laugh, preserving the beauty of your love story. We pride ourselves on delivering stunning, timeless images that you'll treasure forever. At Cherished Moments Photography, we understand that your wedding day is a tapestry of emotions, a collection of moments that deserve to be frozen in time. Our mission is simple yet profound: to capture the very essence of your special day, preserving every smile, tear, and laughter-filled memory. Our team of skilled photographers possesses not only technical expertise but also a deep appreciation for the art of storytelling. We believe that each wedding is a unique narrative, and it's our privilege to be the scribes who document it for eternity. With an artist's eye and a storyteller's heart, we weave together the threads of your love story into a visual We pride ourselves on our commitment to excellence. "
   },
   {
     "id": "05",
@@ -21,7 +23,8 @@
     "title": "Harmony Entertainment Group",
     "description": "Harmony Entertainment Group adds the perfect soundtrack to your celebration. From elegant string quartets to high-energy DJs, we provide exceptional musical experiences. Our passion for music and entertainment ensures your wedding is a harmonious and unforgettable event.",
     "ratings": 4.8,
-    "cast": "150"
+    "cast": "150",
+    "full_description": "Harmony Entertainment Group adds the perfect soundtrack to your celebration. From elegant string quartets to high-energy DJs, we provide exceptional musical experiences. Our passion for music and entertainment ensures your wedding is a harmonious and unforgettable event. At Harmony Entertainment Group, we understand that music is the heartbeat of your celebration. We specialize in curating the perfect soundtrack that harmonizes with your love story, turning your wedding into an unforgettable, melodic experience. Our musical repertoire spans a wide spectrum, from the timeless elegance of string quartets to the high-energy beats of our skilled DJs. Whether you envision a classical serenade as you exchange vows or a lively dance party that keeps your guests on their feet, we have the talent and versatility to make it happen."
   },
   {
     "id": "04",
@@ -29,7 +32,8 @@
     "title": "Harbor Lights Cruises",
     "description": "Harbor Lights Cruises offers a unique wedding experience aboard luxurious cruise ships. Sail into wedded bliss with stunning waterfront views, gourmet dining, and impeccable service. We ensure your wedding day is smooth sailing from start to finish.",
     "ratings": 4.7,
-    "cast": "140"
+    "cast": "140",
+    "full_description": "Harbor Lights Cruises offers a unique wedding experience aboard luxurious cruise ships. Sail into wedded bliss with stunning waterfront views, gourmet dining, and impeccable service. We ensure your wedding day is smooth sailing from start to finish. Set sail for your dream wedding with Harbor Lights Cruises, where luxury and romance meet on the open waters. Our unique wedding experience takes you and your guests on a journey of wedded bliss, surrounded by breathtaking waterfront views. Dine in style with gourmet cuisine and experience impeccable service as we cater to your every need. From the moment you step on board until you sail into the sunset as a married couple, we ensure your wedding day is smooth sailing, filled with memories that will last a lifetime. Choose Harbor Lights Cruises for a wedding day that's as unforgettable as the love you share."
   },
   {
     "id": "02",
@@ -37,7 +41,8 @@
     "title": "Romantic Affairs Planning",
     "description": "At Romantic Affairs Planning, we specialize in curating romantic weddings that speak to your heart. Our dedicated team ensures your special day is infused with love and style. With meticulous planning and personalized touches, we create memories that last a lifetime.",
     "ratings": 4.7,
-    "cast": "130"
+    "cast": "130",
+    "full_description": "At Romantic Affairs Planning, we specialize in curating romantic weddings that speak to your heart. Our dedicated team ensures your special day is infused with love and style. With meticulous planning and personalized touches, we create memories that last a lifetime. At Romantic Affairs Planning, we are passionate about crafting weddings that are truly captivating and deeply romantic. Our specialized expertise lies in curating moments that touch your heart and soul. With a team dedicated to infusing your special day with love and style, we pay meticulous attention to every detail. From the initial planning stages to the final, personalized touches, we strive to create an atmosphere that not only reflects your unique love story but also leaves you with cherished memories that will last a lifetime. Trust us to transform your wedding into an enchanting affair where love takes center stage."
   },
   {
     "id": "00",
@@ -45,6 +50,7 @@
     "title": "Classic Elegance Weddings",
     "description": "Experience timeless beauty with Classic Elegance Weddings. Our seasoned team orchestrates stunning weddings, from intimate ceremonies to grand celebrations. We specialize in crafting unforgettable moments with attention to every detail. With a track record of excellence, our clients trust us to make their dream day a reality.",
     "ratings": 4.8,
-    "cast": "120"
+    "cast": "120",
+    "full_description": "Experience timeless beauty with Classic Elegance Weddings. Our seasoned team orchestrates stunning weddings, from intimate ceremonies to grand celebrations. We specialize in crafting unforgettable moments with attention to every detail. With a track record of excellence, our clients trust us to make their dream day a reality. Classic Elegance Weddings delivers timeless beauty. Our seasoned team orchestrates stunning weddings, from intimate ceremonies to grand celebrations. With meticulous attention to every detail, we specialize in crafting unforgettable moments. Our track record of excellence is a testament to the trust our clients place in us to transform their dream day into a spectacular reality."
   }
 ]

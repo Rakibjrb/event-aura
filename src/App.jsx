@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
 import Nav from "./Layout/Navbar/Nav";
 import Footer from "./Layout/Footer/Footer";
 
@@ -8,6 +9,7 @@ const App = () => {
       <Nav />
       <Outlet></Outlet>
       <Footer />
+      <Toaster position="top-right" reverseOrder={false} />
     </div>
   );
 };

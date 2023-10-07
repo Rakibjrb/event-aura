@@ -1,16 +1,30 @@
-import { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { useContext } from "react";
+import { NavLink, Link } from "react-router-dom";
+import toast from "react-hot-toast";
 import UserImg from "../../assets/images/user.png";
 import "./nav.css";
+import { AuthContext } from "../../AuthProvider/AuthProvider";
+
+const navLinks = [
+  {
+    id: 0,
+    link: "services",
+    name: "Services",
+  },
+  {
+    id: 1,
+    link: "about-us",
+    name: "About Us",
+  },
+  {
+    id: 2,
+    link: "contact-us",
+    name: "Contact Us",
+  },
+];
 
 const Nav = () => {
-  const [navLinks, setNavLinks] = useState([]);
-
-  useEffect(() => {
-    fetch("navlink.json")
-      .then((res) => res.json())
-      .then((resData) => setNavLinks(resData));
-  }, []);
+  const { user, logOut } = useContext(AuthContext);
 
   const links = (
     <>
@@ -19,9 +33,9 @@ const Nav = () => {
           Home
         </NavLink>
       </li>
-      {navLinks.slice(0, 4).map((link) => (
+      {navLinks.map((link) => (
         <li key={link.id}>
-          <NavLink className="font-semibold uppercase" to={link.name}>
+          <NavLink className="font-semibold uppercase" to={`/${link.link}`}>
             {link.name}
           </NavLink>
         </li>
@@ -29,7 +43,15 @@ const Nav = () => {
     </>
   );
 
-  const user = { email: false };
+  const handleLogout = () => {
+    logOut()
+      .then(() => {
+        toast.success("User Logged Out....");
+      })
+      .catch(() => {
+        toast.error("something went wrong !!!");
+      });
+  };
 
   return (
     <div className="bg-[#ffffffc5] sticky top-0 z-50">
@@ -78,16 +100,22 @@ const Nav = () => {
               </label>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                className="menu menu-sm dropdown-content mt-3 z-[10] p-2 shadow bg-base-100 rounded-box w-52"
               >
-                <a>Logout</a>
+                <div className="flex flex-col gap-2 py-3">
+                  <button>{user.displayName}</button>
+                  <button onClick={handleLogout}>Logout</button>
+                </div>
               </ul>
             </div>
           </div>
         ) : (
-          <button className="btn bg-gray-700 text-white hover:text-black">
+          <Link
+            to="/user-login"
+            className="btn bg-gray-700 text-white hover:text-black"
+          >
             Login
-          </button>
+          </Link>
         )}
       </div>
     </div>

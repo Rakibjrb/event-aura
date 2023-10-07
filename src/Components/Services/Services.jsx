@@ -46,7 +46,6 @@ const Services = () => {
                       type="radio"
                       name={`rating-${id}`}
                       className="mask mask-heart bg-red-400"
-                      checked
                     />
                     <input
                       type="radio"
@@ -57,7 +56,7 @@ const Services = () => {
                       type="radio"
                       name={`rating-${id}`}
                       className="mask mask-heart bg-red-400"
-                      checked
+                      defaultChecked
                     />
                     <input
                       type="radio"
