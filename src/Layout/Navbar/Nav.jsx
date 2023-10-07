@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import { NavLink, Link } from "react-router-dom";
 import toast from "react-hot-toast";
-import UserImg from "../../assets/images/user.png";
 import "./nav.css";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 
@@ -40,6 +39,22 @@ const Nav = () => {
           </NavLink>
         </li>
       ))}
+      {!user ? (
+        <></>
+      ) : (
+        <>
+          <li>
+            <NavLink className="font-semibold uppercase" to="/completed-events">
+              Completed Weddings
+            </NavLink>
+          </li>
+          <li>
+            <NavLink className="font-semibold uppercase" to="/event-gellary">
+              Weddings Gellary
+            </NavLink>
+          </li>
+        </>
+      )}
     </>
   );
 
@@ -95,7 +110,7 @@ const Nav = () => {
             <div className="dropdown dropdown-end">
               <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                 <div className="w-10 rounded-full">
-                  <img src={UserImg} alt="User" />
+                  <img src={user.photoURL} alt="User" />
                 </div>
               </label>
               <ul

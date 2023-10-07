@@ -3,9 +3,12 @@ import ExtraLogin from "./ExtraLogin";
 import { useContext } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 import toast from "react-hot-toast";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Login = ({ handleFormToggle }) => {
   const { logIn } = useContext(AuthContext);
+  const navigate = useNavigate();
+  const location = useLocation();
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -15,10 +18,10 @@ const Login = ({ handleFormToggle }) => {
       .then(() => {
         toast.success("Login successfull ....");
         e.target.reset();
+        location?.state ? navigate(location?.state) : navigate("/");
       })
       .catch((err) => {
         toast.error(err.message);
-        console.log(err);
       });
   };
 

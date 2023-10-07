@@ -14,7 +14,7 @@ const Services = () => {
   return (
     <div className="max-w-screen-xl mx-auto px-4 xl:px-0 my-12">
       <h2 className="text-4xl text-center font-robotoslab font-semibold">
-        Our <span className="text-blue-500">Services</span>
+        Our Wedding Event <span className="text-blue-500">Services</span>
       </h2>
       <p className="text-xl text-center font-poppins mt-4">
         Seamlessly orchestrate your dream day with our expert planners, <br />{" "}
