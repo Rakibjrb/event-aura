@@ -26,7 +26,7 @@ const Services = () => {
           return (
             <div
               key={id}
-              className="card card-compact bg-base-100 shadow-xl rounded-none hover:bg-gray-200"
+              className="card card-compact bg-base-100 shadow-xl rounded-md hover:bg-gray-200"
             >
               <figure>
                 <img className="w-full h-60" src={image} alt={title} />
