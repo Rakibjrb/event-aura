@@ -60,7 +60,9 @@ const Nav = () => {
         </div>
       </div>
       <div className="flex-1 lg:flex-none">
-        <a className="text-xl font-robotoslab font-extrabold">Event Aura</a>
+        <a className="text-xl font-robotoslab font-extrabold">
+          Event <span className="text-blue-500">Aura</span>
+        </a>
       </div>
       <div className="hidden lg:flex lg:justify-center">
         <ul className="space-x-10 menu-horizontal px-1">{links}</ul>
