@@ -44,11 +44,8 @@ const Nav = () => {
       ) : (
         <>
           <li>
-            <NavLink
-              className="font-semibold uppercase"
-              to="/completed-weddings"
-            >
-              Completed Weddings
+            <NavLink className="font-semibold uppercase" to="/completed-events">
+              Completed Events
             </NavLink>
           </li>
           <li>

@@ -9,6 +9,7 @@ import Login from "../Pages/LoginAndSignUp/Switcher";
 import Gellary from "../Pages/WeddingGellary/Gellary";
 import AboutUs from "../Pages/AboutUs/AboutUs";
 import ContactUs from "../Pages/ContactUs/ContactUs";
+import CompletedEvents from "../Pages/CompletedEvents/CompletedEvents";
 
 const routers = createBrowserRouter([
   {
@@ -30,6 +31,15 @@ const routers = createBrowserRouter([
       {
         path: "/contact-us",
         element: <ContactUs />,
+      },
+      {
+        path: "/completed-events",
+        element: (
+          <ProtectedRoute>
+            <CompletedEvents />
+          </ProtectedRoute>
+        ),
+        loader: () => fetch("../gellary.json"),
       },
       {
         path: "/user-login",

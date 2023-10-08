@@ -5,7 +5,7 @@ const AboutUs = () => {
         About Us -{" "}
         <span className="text-blue-500">Crafting Dream Weddings</span>
       </h2>
-      <p className="text-justify">
+      <div className="text-justify">
         Welcome to <span className="text-blue-500">Event Aura</span>, where
         dreams become reality, and love stories are beautifully told. With a
         passion for creating unforgettable moments and a commitment to
@@ -42,7 +42,7 @@ const AboutUs = () => {
         of sheer beauty and joy are what fuel our work every day.
         <br />
         <br />
-        <h3 className="text-xl font-bold mb-3">Why Choose Us</h3>
+        <p className="text-xl font-bold mb-3">Why Choose Us</p>
         <ul className="space-y-2 pl-4 list-disc">
           <li>
             <b>Experience</b>: With years of experience in the industry, we
@@ -70,9 +70,7 @@ const AboutUs = () => {
             work.
           </li>
         </ul>
-        <h4 className="text-xl font-bold mt-7 mb-2">
-          Your Dream Wedding Awaits
-        </h4>
+        <p className="text-xl font-bold mt-7 mb-2">Your Dream Wedding Awaits</p>
         At <span className="text-blue-500">Event Aura</span>, we believe that
         your wedding day should be a work of art, a masterpiece that reflects
         your love, your style, and your dreams. We are here to make that vision
@@ -83,7 +81,7 @@ const AboutUs = () => {
         {"Let's"} embark on this beautiful journey together, crafting memories
         that will last a lifetime. Your dream wedding awaits, and we are here to
         make it extraordinary.
-      </p>
+      </div>
     </div>
   );
 };
