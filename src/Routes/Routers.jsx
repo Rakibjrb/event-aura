@@ -6,6 +6,7 @@ import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import ServiceDetails from "../Components/ServiceDetails/ServiceDetails";
 import ProtectedRoute from "./ProtectedRoute";
 import Login from "../Pages/LoginAndSignUp/Switcher";
+import Gellary from "../Pages/WeddingGellary/Gellary";
 
 const routers = createBrowserRouter([
   {
@@ -32,6 +33,15 @@ const routers = createBrowserRouter([
           </ProtectedRoute>
         ),
         loader: () => fetch("../services.json"),
+      },
+      {
+        path: "/weddings-gellary",
+        element: (
+          <ProtectedRoute>
+            <Gellary />
+          </ProtectedRoute>
+        ),
+        loader: () => fetch("../gellary.json"),
       },
     ],
     errorElement: <ErrorPage />,

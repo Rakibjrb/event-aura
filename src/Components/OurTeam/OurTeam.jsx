@@ -28,7 +28,7 @@ const OurTeam = () => {
             return (
               <div
                 data-aos="fade-up"
-                data-aos-duration="1000"
+                data-aos-duration="1500"
                 className="rounded-md teammember relative overflow-hidden bg-base-100 py-10 hover:bg-base-300 hover:cursor-pointer transition-all"
                 key={id}
               >
