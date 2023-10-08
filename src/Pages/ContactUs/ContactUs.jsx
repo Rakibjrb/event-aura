@@ -4,7 +4,7 @@ const ContactUs = () => {
   return (
     <div className="py-16 setbg bg-cover bg-center bg-no-repeat">
       <div className="max-w-screen-xl mx-auto px-4 xl:px-0 flex justify-center">
-        <div className="max-w-screen-sm card flex-shrink-0 w-full shadow-2xl bg-[rgba(0,0,0,0.33)] pt-5">
+        <div className="max-w-screen-sm card flex-shrink-0 w-full shadow-2xl bg-[rgba(0,0,0,0.45)] pt-5">
           <h2 className="text-center text-3xl font-robotoslab font-bold text-white">
             Contact US
           </h2>
