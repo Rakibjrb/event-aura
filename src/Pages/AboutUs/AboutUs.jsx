@@ -1,7 +1,7 @@
 const AboutUs = () => {
   return (
     <div className="max-w-screen-lg mx-auto px-4 py-10 xl:px-0">
-      <h2 className="text-3xl text-center mb-5">
+      <h2 className="text-3xl text-center mb-5 font-robotoslab font-bold">
         About Us -{" "}
         <span className="text-blue-500">Crafting Dream Weddings</span>
       </h2>

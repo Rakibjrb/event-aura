@@ -3,7 +3,7 @@ import { useLoaderData } from "react-router-dom";
 const CompletedEvents = () => {
   const data = useLoaderData();
   return (
-    <div className="max-w-screen-xl mx-auto px-4 xl:px-0 my-16">
+    <div className="max-w-screen-xl mx-auto px-4 xl:px-0 mt-5 mb-16">
       <h2 className="text-4xl text-center font-robotoslab font-bold mb-6">
         Our Completed <span className="text-blue-500">Events</span>
       </h2>
@@ -13,9 +13,14 @@ const CompletedEvents = () => {
           return (
             <div key={id} className="bg-base-300 rounded-lg">
               <img src={image} alt={customer_name} />
-              <div className="flex justify-between py-6 px-2">
-                <h4 className="font-bold">Completed on : {finish_date}</h4>
-                <h4 className="font-bold">Total Cast : {total_cast}$</h4>
+              <div className="p-4">
+                <h3 className="text-xl font-bold mb-2">
+                  Buyer Name : {customer_name}
+                </h3>
+                <div className="flex justify-between">
+                  <h4 className="font-bold">Completed on : {finish_date}</h4>
+                  <h4 className="font-bold">Total Cast : {total_cast}$</h4>
+                </div>
               </div>
             </div>
           );
