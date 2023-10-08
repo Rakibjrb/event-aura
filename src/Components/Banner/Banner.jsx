@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./banner.css";
 
 const Banner = () => {
@@ -12,9 +13,12 @@ const Banner = () => {
           We are event management spacialists
         </h2>
 
-        <button className="btn btn-primary mt-10 px-10 font-poppins">
+        <Link
+          to="/services"
+          className="btn btn-primary mt-10 px-10 font-poppins"
+        >
           Get Started
-        </button>
+        </Link>
       </div>
     </div>
   );

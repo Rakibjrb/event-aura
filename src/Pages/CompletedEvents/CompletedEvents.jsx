@@ -19,7 +19,7 @@ const CompletedEvents = () => {
                 </h3>
                 <div className="flex justify-between">
                   <h4 className="font-bold">Completed on : {finish_date}</h4>
-                  <h4 className="font-bold">Total Cast : {total_cast}$</h4>
+                  <h4 className="font-bold">Total Cost : {total_cast}$</h4>
                 </div>
               </div>
             </div>
