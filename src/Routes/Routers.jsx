@@ -8,6 +8,7 @@ import ProtectedRoute from "./ProtectedRoute";
 import Login from "../Pages/LoginAndSignUp/Switcher";
 import Gellary from "../Pages/WeddingGellary/Gellary";
 import AboutUs from "../Pages/AboutUs/AboutUs";
+import ContactUs from "../Pages/ContactUs/ContactUs";
 
 const routers = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const routers = createBrowserRouter([
       {
         path: "/about-us",
         element: <AboutUs />,
+      },
+      {
+        path: "/contact-us",
+        element: <ContactUs />,
       },
       {
         path: "/user-login",
