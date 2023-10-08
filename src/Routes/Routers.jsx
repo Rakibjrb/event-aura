@@ -7,6 +7,7 @@ import ServiceDetails from "../Components/ServiceDetails/ServiceDetails";
 import ProtectedRoute from "./ProtectedRoute";
 import Login from "../Pages/LoginAndSignUp/Switcher";
 import Gellary from "../Pages/WeddingGellary/Gellary";
+import AboutUs from "../Pages/AboutUs/AboutUs";
 
 const routers = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const routers = createBrowserRouter([
       {
         path: "/services",
         element: <Services />,
+      },
+      {
+        path: "/about-us",
+        element: <AboutUs />,
       },
       {
         path: "/user-login",
