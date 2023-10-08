@@ -26,15 +26,15 @@ const Login = ({ handleFormToggle }) => {
   };
 
   return (
-    <div className="px-5 sm:px-0 hero bg-base-200 py-20">
-      <div className="max-w-screen-sm card flex-shrink-0 w-full shadow-2xl bg-base-100 pt-5">
-        <h2 className="text-center text-3xl font-robotoslab font-bold">
+    <div className="px-5 sm:px-0 hero bg-[rgb(78,78,78)] py-20">
+      <div className="max-w-screen-sm card flex-shrink-0 w-full shadow-2xl  pt-5 bg-[#111111]">
+        <h2 className="text-center text-3xl font-robotoslab font-bold text-white">
           User Login
         </h2>
         <form onSubmit={handleLogin} className="card-body pb-3">
           <div className="form-control">
             <label className="label">
-              <span className="label-text">Email</span>
+              <span className="label-text text-white">Email</span>
             </label>
             <input
               type="email"
@@ -46,7 +46,7 @@ const Login = ({ handleFormToggle }) => {
           </div>
           <div className="form-control">
             <label className="label">
-              <span className="label-text">Password</span>
+              <span className="label-text text-white">Password</span>
             </label>
             <input
               type="password"
@@ -56,7 +56,7 @@ const Login = ({ handleFormToggle }) => {
               required
             />
             <label className="label">
-              <a href="#" className="label-text-alt link link-hover">
+              <a href="#" className="label-text-alt link link-hover text-white">
                 Forgot password?
               </a>
             </label>
@@ -68,7 +68,7 @@ const Login = ({ handleFormToggle }) => {
           </div>
         </form>
         <div className="card-body pt-0">
-          <p className="flex justify-between">
+          <p className="flex justify-between text-white">
             {"Don't"} have any account?{" "}
             <button
               onClick={(e) => {

@@ -34,15 +34,15 @@ const Signup = ({ handleFormToggle }) => {
       .catch(() => toast.error("something went wrong !!!"));
   };
   return (
-    <div className="px-5 sm:px-0 hero py-20 bg-base-200">
-      <div className="max-w-screen-sm card flex-shrink-0 w-full shadow-2xl bg-base-100 pt-5">
-        <h2 className="text-center text-3xl font-robotoslab font-bold">
+    <div className="px-5 sm:px-0 hero py-20 bg-[rgb(66,66,66)]">
+      <div className="max-w-screen-sm card flex-shrink-0 w-full shadow-2xl bg-[#111111] pt-5">
+        <h2 className="text-center text-3xl font-robotoslab font-bold text-white">
           User Registration
         </h2>
         <form onSubmit={handleSignUp} className="card-body pb-3">
           <div className="form-control">
             <label className="label">
-              <span className="label-text">Name</span>
+              <span className="label-text text-white">Name</span>
             </label>
             <input
               type="text"
@@ -54,7 +54,7 @@ const Signup = ({ handleFormToggle }) => {
           </div>
           <div className="form-control">
             <label className="label">
-              <span className="label-text">Email</span>
+              <span className="label-text text-white">Email</span>
             </label>
             <input
               type="email"
@@ -66,7 +66,7 @@ const Signup = ({ handleFormToggle }) => {
           </div>
           <div className="form-control">
             <label className="label">
-              <span className="label-text">Password</span>
+              <span className="label-text text-white">Password</span>
             </label>
             <input
               type="password"
@@ -83,7 +83,7 @@ const Signup = ({ handleFormToggle }) => {
           </div>
         </form>
         <div className="card-body pt-0">
-          <p className="flex justify-between">
+          <p className="flex justify-between text-white">
             Already have an account?{" "}
             <button
               onClick={() => handleFormToggle()}
