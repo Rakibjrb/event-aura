@@ -68,7 +68,7 @@ const Login = ({ handleFormToggle }) => {
           </div>
         </form>
         <div className="card-body pt-0">
-          <p>
+          <p className="flex justify-between">
             {"Don't"} have any account?{" "}
             <button
               onClick={(e) => {
@@ -77,7 +77,7 @@ const Login = ({ handleFormToggle }) => {
               }}
               className="text-blue-500 ml-2"
             >
-              Sign Up
+              Sign Up Now
             </button>
           </p>
           <ExtraLogin />

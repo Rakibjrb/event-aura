@@ -83,13 +83,13 @@ const Signup = ({ handleFormToggle }) => {
           </div>
         </form>
         <div className="card-body pt-0">
-          <p>
-            Do not hav any account?{" "}
+          <p className="flex justify-between">
+            Already have an account?{" "}
             <button
               onClick={() => handleFormToggle()}
               className="text-blue-500"
             >
-              Login
+              Please Login
             </button>
           </p>
           <ExtraLogin />
