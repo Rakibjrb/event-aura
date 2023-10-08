@@ -40,7 +40,7 @@ const Services = () => {
               <div className="card-body">
                 <h2 className="card-title font-poppins font-bold">{title}</h2>
                 <p>{description.slice(0, 110)}...</p>
-                <h3 className="text-xl">Coast : {cast}$</h3>
+                <h3 className="text-xl">Cost : {cast}$</h3>
                 <div className="card-actions mt-4 flex justify-between items-center">
                   <div className="rating gap-1">
                     <input
