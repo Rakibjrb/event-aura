@@ -20,7 +20,7 @@ console.log(greetign);
 
 #### Answer: A
 
-<i>Write your explanation here</i>
+<i>greeting variable decleared but it does'nt have any value. Second line decleared a variable named "greetign", this variable create a global scoped variable because it does'nt decleared with 'var', 'let' and 'const' keyword. IF we consoled the greetign variable we got the result an empty object "{}"</i>
 
 </p>
 </details>
@@ -45,7 +45,7 @@ sum(1, "2");
 
 #### Answer: C
 
-<i>Write your explanation here</i>
+<i>"sum" function received two parameters and add using "+" operator. First parameter "1" is number type data and second parameter "2" is string type data. Javascript matched common type data before performing mathmatical operation. In this case it will attepmt the number typed value "1" to string and performed the operation. We got the result "12" in string type</i>
 
 </p>
 </details>
@@ -71,7 +71,7 @@ console.log(food);
 
 #### Answer: A
 
-<i>Write your explanation here</i>
+<i>"food" variable decleared an array with ["🍕", "🍫", "🥑", "🍔"]. In info variable decleared an object with property named "favoriteFood" and value is "🍕", then performed change into info object with "🍝" , then consoled the food variable we got the result is ["🍕", "🍫", "🥑", "🍔"]. This info variable changes not affect to main "food" variable.</i>
 
 </p>
 </details>
@@ -96,7 +96,7 @@ console.log(sayHi());
 
 #### Answer: B
 
-<i>Write your explanation here</i>
+<i>"sayHi" function receive a parameter called "name" and the function will return a string. In this case, "sayHi" function is called without any parameter, We know if we decleared any variable without any value the variable auto define the value is "undefined". This why we got the result is "Hi there, undefined"</i>
 
 </p>
 </details>
@@ -124,7 +124,7 @@ console.log(count);
 
 #### Answer: C
 
-<i>Write your explanation here</i>
+<i>"count" variable initial value "0". "nums" variable decleared an array with four element "[0, 1, 2, 3]". in "nums" varable we got one by one element using "forEach" loop then checked a condition the element truthy or falsy. If the element is truthy then incremeant the "count" value by "1" and the element is falsy it will not incremeant the "count" value. In this case, "[0, 1, 2, 3]" in "0" is a falsy value and "1", "2", "3" is truthy value this why incremeant three times and we got the result is "3"</i>
 
 </p>
 </details>
